@@ -1,0 +1,25 @@
+/* Google fonts roboto mono */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;700&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+}
+
+/* Adjusting calculator to center alignment */
+#root {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+
+    text-align: center;
+
+    color: #e0e0e0;
+
+    background: linear-gradient(to right, rgba(83, 105, 118), rgb(41, 46, 73));
+}
